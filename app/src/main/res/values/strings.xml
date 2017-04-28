@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">POI</string>
+    <string name="choosemap">Choose map style</string>
+    <string name="regularview">Regular View</string>
+    <string name="cyclemapview">Cycle Map View</string>
+
+</resources>
