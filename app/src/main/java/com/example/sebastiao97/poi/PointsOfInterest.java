@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import org.osmdroid.config.Configuration;
-import org.osmdroid.views.POImap;
+import org.osmdroid.views.MapView;
 import org.osmdroid.util.GeoPoint;
 
 import android.view.Menu;
@@ -20,7 +20,7 @@ public class PointsOfInterest extends Activity implements View.OnClickListener
 
 {
 
-    POImap mv;
+    MapView mv;
 
     public void onCreate(Bundle savedInstanceState)
     {
@@ -57,7 +57,7 @@ public class PointsOfInterest extends Activity implements View.OnClickListener
     public boolean onCreateOptionsMenu(Menu menu)
     {
         MenuInflater inflater=getMenuInflater();
-        inflater.inflate(R.menu.menu_hello_map, menu);
+        inflater.inflate(R.menu.poi_menu, menu);
         return true;
     }
 
