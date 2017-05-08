@@ -28,8 +28,6 @@ public class PointsOfInterest extends Activity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button submitButton = (Button) findViewById(R.id.submitButton);
-        submitButton.setOnClickListener(this);
 
         // this line tells OpenStreetMap about our app.
         // If you miss this out, you might get banned from OSM servers
